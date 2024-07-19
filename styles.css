@@ -1,0 +1,124 @@
+/* HEADER */
+body {
+  font-family: Arial, sans-serif; /* Шрифт */
+  line-height: 1.6;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header#header_wrap {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header#header_wrap h1 {
+  margin: 0;
+}
+
+/* MAIN CONTENT */
+main.c {
+  max-width: 1400px;
+  width: 90%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px; /* Скругление углов */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main.c #main_content_wrap {
+  padding: 20px;
+}
+
+main.c #main_content h1 {
+  background: radial-gradient(circle at center, #f0f0f0 0%, white 100%);
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+main.c #main_content h1::before {
+  content: "📘";
+  margin-right: 10px;
+}
+
+/* FOOTER */
+footer#footer_wrap {
+  background-color: #333;
+  color: #fff;
+  padding: 12px; /* Внутренние отступы */
+  text-align: center;
+  margin-top: 12px;
+}
+
+footer#footer_wrap .inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer#footer_wrap .copyright {
+  font-size: 14px;
+}
+
+/* ADDITIONAL */
+.info {
+  padding: 5px;
+  background: radial-gradient(circle at center, lightgreen 0%, white 100%);
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  padding: 10px;
+  background: radial-gradient(circle at center, rgb(32, 32, 255) 0%, white 100%);
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.content {
+  padding: 15px;
+  background: radial-gradient(circle at center, #ffffaa 0%, white 100%);
+  text-align: center;
+  margin: 0;
+  margin-bottom: -40px; /* Уменьшение расстояния между элементами */
+}
+
+.content-link {
+  padding: 15px;
+  background: radial-gradient(circle at center, #ffffaa 0%, white 100%);
+  text-align: center;
+  margin: 0;
+}
+
+.next-container {
+  padding: 10px;
+  background: radial-gradient(circle at center, #007bff 0%, white 100%);
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.theory-text {
+  padding: 5px;
+  background: radial-gradient(circle at center, lightgreen 0%, white 100%); 
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  padding: 10px;
+  background: radial-gradient(circle at center, rgb(32, 32, 255) 0%, white 100%);
+  color: white;
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
